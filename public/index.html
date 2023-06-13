@@ -1,22 +1,63 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html>
+<head>
+  <title>Home Sweet Home : Online - Discord Ban Appeal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('background.png'); /* Replace with the path to your background image */
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+    .container {
+      text-align: center;
+    }
 
-        <title>Ban appeal</title>
-    </head>
-    <body class="h-100 d-flex flex-column justify-content-center align-items-stretch">
-        <div class="jumbotron text-center mb-0">
-            <h1>Ban appeal</h1>
-        </div>
+    h1 {
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
 
-        <div class="flex-fill text-center d-flex h-100 justify-content-center align-items-center">
-            <a class="btn" id="login" style="font-size: 2rem;" href="/.netlify/functions/oauth">Login with Discord</a>
-        </div>
-    </body>
+        p {
+      color: #ffffff;
+    }
+
+    .logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #7289DA;
+      color: #ffffff;
+      font-size: 16px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #5d6bb2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="Logo_Home_Sweet_Home_Online_V02.png" alt="Logo" class="logo"> <!-- Replace with the path to your logo image -->
+    <h1>Welcome to Home Sweet Home : Online Discord Ban Appeal</h1>
+    <p>Please sign in with Discord to continue:</p>
+    <a class="button" id="login" style="font-size: 2rem;" href="/.netlify/functions/oauth">Login with Discord</a>
+    <div id="message"></div>
+  </div>
+</body>
 </html>
